@@ -1,10 +1,12 @@
-*{
-    box-sizing: border-box;
-}
+@import url("reset.css");
+@import url("grid.css");
+@import url("buttons.css");
+@import url("icons.css");
+@import url("tipograph.css");
+
+
 body{
     font-family: 'Open sans', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 #header{
     background: url("../images/home.jpg") no-repeat;
@@ -15,21 +17,11 @@ body{
     position: relative;
     padding-top: 30px;
 }
-a{
-    text-decoration: none;
-}
+
 #header img{
     text-shadow: 5px 5px white;
 }
-#header .btn{
-    background-color: rgb(209, 81, 69);
-    border-radius: 30px;
-    padding: 10px 30px;
-    font-size: 16px;
-}
-#header .btn:hover{
-    background-color: rgb(209, 50, 69);
-}
+
 #header nav a{
     text-decoration: none;
     display: inline-block;
@@ -65,3 +57,45 @@ a{
     transform: translate(0, -50%);
     text-align: center;
 }
+
+#team, #customers, #our-services{
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+#customers{
+    background-color: rgb(242, 242, 242);
+}
+
+#customers .btn{
+    margin-top: 80px;
+    background-color: rgb(220, 220, 220);
+    color: rgb(130, 130, 130);
+}
+ #customers .btn:hover{
+     background-color: rgb(130, 130, 130);
+     color: rgb(220, 220, 220);
+ }
+
+ #customers .btn .material-icons{
+     vertical-align: middle;
+     font-size: 16px;
+ }
+
+ #customers .container{
+     max-width: 1000px;
+ }
+
+ #team{
+     background-color: rgb(209, 81, 69);
+     color: white;
+ }
+
+ #team .img-box-round{
+     width: 120px;
+     height: 120px;
+ }
+
+ #team h2:after{
+     background-color: white;
+ }

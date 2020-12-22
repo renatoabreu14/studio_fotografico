@@ -1,0 +1,25 @@
+.icon-container{
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background: #f3cecc;
+    border-radius: 30px;
+    position: relative;
+}
+
+.icon-container .material-icons{
+    display: block;
+    font-size: 85px;
+    color: rgb(209, 81, 69);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: default;
+}
+
+.img-box-round{
+    display: inline-block;
+    border-radius: 100%;
+    overflow: hidden;
+}
